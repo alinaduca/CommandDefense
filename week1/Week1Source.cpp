@@ -10,9 +10,9 @@ void ParseSources()
 	char input[38] = "---H***E+++L+++L///O---P+++O/+-**O---";
 	func Operatori[4] = {Sum, Dif, Mul, Div};
 	int S = 0, V;
-	Content x;
+    	Content x;
 	x.p1 = 0;
-	x.p2 = 0;
+    	x.p2 = 0;
 	int idx;
 
 	for (int i = 0; i < strlen(input); i++)
@@ -23,22 +23,22 @@ void ParseSources()
 				idx = 2;
 				x.p1 = 3;
 				x.p2 = 3;
-				break;
+                		break;
 			case SUMA:
 				idx = 0;
 				x.p1 = 7;
 				x.p2 = 5;
-				break;
+                		break;
 			case DIFERENTA:
 				idx = 1;
 				x.p1 = 10;
 				x.p2 = 1;
-				break;
+                		break;
 			case IMPARTIRE:
 				idx = 3;
 				x.p1 = 8;
 				x.p2 = 4;
-				break;
+                		break;
 		}
 
 		S = S + Operatori[idx](x.p1, x.p2);
