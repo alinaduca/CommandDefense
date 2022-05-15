@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1652635120 source:/home/alina/C++/array/main.cpp
+	<iostream>
+	"Array.h"
+	"Array.cpp"
+
+1652635901 /home/alina/C++/array/Array.h
+	<iostream>
+
+1652634769 /home/alina/C++/array/Array.cpp
+
